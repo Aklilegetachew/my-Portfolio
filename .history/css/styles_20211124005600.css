@@ -1,0 +1,144 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+#D05353 - indian red
+*/
+
+/* global
+======================================================*/
+img{
+    width: 300px;
+    height: 640px;
+}
+a{
+    color: #FFE66D ;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+}
+h1{
+    font-size: 90px;
+    margin: 0;
+    
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    line-height: 1em;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* Heading
+======================================================*/
+header{
+    background-color: #2F3061 ;
+    color: #F7FFF7;
+    text-align: center;
+}
+
+
+
+/* projects
+======================================================*/
+
+.projects{
+    background-color: #F7FFF7 ;
+
+}
+
+.project-item{
+    clear: both;
+    margin-top: 60px;
+    display: inline-block;
+}
+.project-item h3{
+    margin-top: 0;
+}
+
+.project-item img{
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    height: 640px;
+}
+
+.image-stack-back{
+    position: relative;
+
+    z-index: 100;
+}
+
+.image-stack-front{
+    position: static;
+    bottom: 20px;
+    left: 20px;
+    z-index: 200;
+}
+
+
+.projects a{
+    color: #343434 ;
+
+}
+.projects .btn{
+    color: #F7FFF7;
+    background-color: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Work experiance
+=======================================================*/
+.work-experience{
+    background-color: #A1C6D7;
+
+}
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+}
+
+
+/* extracurricular
+=======================================================*/
+.extracurricular{
+    background-color: #D05353;
+    color: #F7FFF7;
+
+}
+
+/* footer
+=======================================================*/
+footer{
+    background-color: #343434 ;
+    color: #F7FFF7;
+    text-align: center;
+}
+
+.contact-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.contact-list a {
+    display: inline-block;
+    padding: 20px;
+}
